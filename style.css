@@ -1,0 +1,63 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+body{
+    display:flex;
+    justify-content:center
+}
+nav{
+    position:fixed;
+    background-color:black;
+    color:white;
+    width:70%;
+}
+#mainBody{
+    position:relative;
+    top:30px;
+    display:flex;
+    gap:20px;
+    flex-wrap:wrap;
+    width:70%;
+}
+#mainBody>h1{
+    text-align:center;
+    width:100%;
+}
+.userSection{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    outline:black 3px solid;
+    flex:1;
+    padding:10px;
+    gap:1em;
+    height:200px;
+}
+.userSection img{
+    height:40px;
+    width:40px;
+}
+#likes{
+    flex:3;
+}
+.indivLike{
+    outline:black 3px solid;
+    padding:10px;
+}
+.top{
+    display: flex;
+    justify-content:space-between;
+}
+.likeSection{
+    display:flex;
+    justify-content:space-between;
+    align-content:center;
+    gap:10px
+}
+button{
+    padding:4px 8px;
+    background-color:rgb(238, 238, 57)
+}
